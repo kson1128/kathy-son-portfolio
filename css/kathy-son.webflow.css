@@ -267,7 +267,7 @@ figcaption {
 }
 
 .column.background-image {
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url('../images/hiking.jpg');
   background-position: 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2561,9 +2561,12 @@ figcaption {
 }
 
 .large-growing-images.small.genzi-subpage-2 {
-  min-height: 75%;
-  background-image: url('../images/2-Genzi---positive-comments-.png');
-  background-position: 50%;
+  min-height: 95%;
+  width: 100%;
+  background-image: url('../images/nebula1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .large-growing-images.small.quoin-cards-subpage-2 {
@@ -2678,6 +2681,10 @@ figcaption {
   display: grid;
 }
 
+.medium-width-intro.tagged {
+  display: flex;
+}
+
 .growing-background {
   background-image: url('../images/Image013.jpeg');
   background-position: 50%;
@@ -2783,6 +2790,12 @@ figcaption {
 
 .medium-width {
   max-width: 500px;
+}
+
+.medium-width.nebula {
+  position: relative;
+  top: auto;
+  bottom: 10%;
 }
 
 .heading-17 {
@@ -6904,6 +6917,13 @@ figcaption {
   align-self: center;
 }
 
+#w-node-cddd37e2-43f6-7024-c6af-cf348ecae8ce-f02ed743 {
+  display: flex;
+  justify-self: center;
+  /* align-items: center;
+  align-self: center;  */
+}
+
 #w-node-cfab6e51-9237-c52a-ed14-f1f70c9230a5-f02ed743,
 #w-node-ecc91f6e-5092-bae0-aa4b-89e2bcce8b4f-f02ed743,
 #w-node-_89aeb690-383b-9c58-b1e0-5e543c8b2e0d-f02ed743 {
@@ -6992,4 +7012,9 @@ figcaption {
   #w-node-cddd37e2-43f6-7024-c6af-cf348ecae8e9-f02ed74c {
     justify-self: center;
   }
+}
+
+.linkedin-icon {
+  position: relative;
+  bottom: -1vh;
 }

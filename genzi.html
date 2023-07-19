@@ -17,6 +17,7 @@
     <link href="css/webflow.css" rel="stylesheet" type="text/css" />
     <link href="css/kathy-son.webflow.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
+
     <link
       href="https://fonts.gstatic.com"
       rel="preconnect"
@@ -83,11 +84,7 @@
       type="text/javascript"
       src="https://cdn.weglot.com/weglot.min.js"
     ></script>
-    <script>
-      Weglot.initialize({
-        api_key: 'wg_8b4a304507d22c4d69628632d48d42083',
-      });
-    </script>
+    <script></script>
     <!--  Google tag (gtag.js)  -->
     <script
       async=""
@@ -130,9 +127,9 @@
         </nav>
       </div>
     </div>
-    <div class="section-12 wf-section">
+    <!-- <div class="section-12 wf-section">
       <h1 class="heading-24">Nebula</h1>
-    </div>
+    </div> -->
     <section class="hero-heading-right wf-section">
       <div class="container-11"></div>
       <div id="Sendit" class="service-item left">
@@ -143,11 +140,36 @@
           <div class="medium-width-intro genzi-subpage">
             <div class="stacked-title genzi">
               <h1 class="heading-17 landing phone">
-                <span class="underline genzi phone">Nebula</span>
+                <!-- <span class="underline genzi phone">Nebula</span> -->
               </h1>
             </div>
-            <div class="medium-width">
-              <div class="body-display">.<br /></div>
+            <div class="medium-width nebula">
+              <div class="body-display">
+                <div class="stacked-title">
+                  <a
+                    id="w-node-_0828148c-8efa-8cb4-78d0-c08d31fa3c58-f02ed74c"
+                    class="heading underline genzi phone"
+                    >NEBULA:</a
+                  >
+                </div>
+                The frontend of this e-commerce marketplace is developed using
+                React, Redux, webpack, and CSS. By incorporating Redux, the
+                frontend development process is enhanced through a structured
+                approach to managing application state, promoting data
+                consistency, and facilitating efficient data sharing between
+                components. The utilization of webpack for module bundling
+                results in improved performance and faster loading times. On the
+                backend, Nebula relies on Express, JWT, PostgreSQL, and
+                Sequelize to ensure smooth data management. Express provides a
+                solid foundation for constructing scalable web applications,
+                while JWT ensures secure authentication and authorization
+                processes. PostgreSQL serves as a dependable solution for
+                storing and retrieving data, while Sequelize simplifies database
+                operations with its convenient ORM capabilities. These
+                technologies work together to establish a secure, efficient, and
+                seamless backend infrastructure.
+                <br />
+              </div>
             </div>
           </div>
         </div>
@@ -165,10 +187,20 @@
         >
           <div class="medium-width-intro">
             <div class="stacked-title">
+              <a
+                id="w-node-_0828148c-8efa-8cb4-78d0-c08d31fa3c58-f02ed74c"
+                class="heading underline genzi phone"
+                >Tech Stack:</a
+              >
+            </div>
+            <div class="stacked-title">
               <h1 class="heading genzi"></h1>
             </div>
             <div class="medium-width">
-              <div class="body-display">.<br /></div>
+              <div class="body-display">
+                React | Redux | Express | PostgreSQL | Sequelize | JWT | bcrypt
+                <br />
+              </div>
             </div>
           </div>
         </div>
@@ -248,11 +280,6 @@
       src="https://cdn.weglot.com/weglot.min.js"
     ></script>
     <script>
-      // init Weglot
-      Weglot.initialize({
-        api_key: 'wg_62d9b9b0750831f48721322c8384946b6',
-      });
-      // on Weglot init
       Weglot.on('initialized', () => {
         // get the current active language
         const currentLang = Weglot.getCurrentLang();
