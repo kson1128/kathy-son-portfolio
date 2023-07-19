@@ -5,7 +5,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const ENVIRONMENT = process.env.NODE_ENV;
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   performance: {
     maxEntrypointSize: 512000,
     maxAssetSize: 512000,
